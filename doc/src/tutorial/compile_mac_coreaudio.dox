@@ -3,11 +3,11 @@
 
 @section comp_mac_ca_1 Requirements
 
-* OS X 10.6 or later. PortAudio v19.7 currently only compiles and runs on OS X version 10.6 or later.
+* OS X 10.5 or later. PortAudio v19.7 currently only compiles and runs on OS X version 10.5 or later.
 
 * Apple's Xcode and its related tools installed in the default location. There is no Xcode project for PortAudio.
 
-* Mac 10.6 SDK. Look for "/Developer/SDKs/MacOSX10.6.sdk" folder on your system. It may be installed with XCode. If not then you can download it from Apple Developer Connection. http://connect.apple.com/
+* Mac 10.5 SDK. Look for "/Developer/SDKs/MacOSX10.6.sdk" folder on your system. It may be installed with XCode. If not then you can download it from Apple Developer Connection. http://connect.apple.com/
 
 @section comp_mac_ca_2 Building
 
@@ -29,7 +29,7 @@ There are a variety of other options for building PortAudio. The default describ
 
 @subsection comp_mac_ca_3.1 Building Non-Universal Libraries
 
-By default, PortAudio is built as a universal binary. This includes 64-bit versions if you are compiling on 10.6, Snow Leopard. If you want a "thin", or single architecture library, you have two options:
+By default, PortAudio is built as a universal binary. This includes 64-bit versions if you are compiling on 10.5, Leopard. If you want a "thin", or single architecture library, you have two options:
 
  * build a non-universal library using configure options.
  * use lipo(1) on whatever part of the library you plan to use.
